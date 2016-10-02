@@ -1,6 +1,6 @@
 {
   "name": "node-webcrawler",
-  "version": "0.7.11",
+  "version": "0.7.12",
   "description": "Crawler is a web spider written with Nodejs. It gives you the full power of jQuery on the server to parse a big number of pages as they are downloaded, asynchronously",
   "main": "./lib/crawler.js",
   "directories": {
@@ -9,6 +9,9 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --reporter spec --bail --timeout 10000 tests/*.js"
   },
+  "files": [
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gotojmp/node-webcrawler.git"
@@ -42,6 +45,7 @@
     "scraper",
     "scraping",
     "jquery",
+    "webcrawler",
     "crawler"
   ],
   "author": "gotojmp",
